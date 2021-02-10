@@ -32,7 +32,7 @@ paths:
           Request body example
 
               name: Michael
-              text: Hello,
+              text: Hello
               length: 150
 
         content:
