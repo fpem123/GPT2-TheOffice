@@ -42,8 +42,8 @@ paths:
               properties:
                 name:
                   type: string
-                  enum: [Michael, Dwight, James, Pamela, Ryan, Andrew, Meredith, Phyllis,
-                         Stanley, Angela, Oscar, Kelley, Toby, Kevin, Creed, Kelley, Darryl]
+                  enum: [Michael, Dwight, Jin, Pam, Ryan, Andy, Meredith, Phyllis, Stanley,
+                         Angela, Oscar, Kelly, Toby, Kevin, Creed, Darryl, David, Jan, Jo]
                   description: "The Office character name."
                 text:
                   type: string
