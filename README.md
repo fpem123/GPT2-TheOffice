@@ -26,13 +26,40 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/nasirkhalid24/the-office-us-co
     text: The base of script.
     length: The size of generated text.
 
-### Image reference
 
-[static/README.md]()
+### Output foramt
+
+    output: {"0", [[character name, dialog], [character name, dialog], ...]}
+
 
 ## * With CLI *
 
-    curl -X POST "https://master-gpt2-the-office-fpem123.endpoint.ainize.ai/office" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "name=Michael" -F "text=Hello" -F "length=150"
+#### Input example
+
+    curl -X POST "https://master-gpt2-the-office-fpem123.endpoint.ainize.ai/office" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "name=Michael" -F "text=Hello" -F "length=50"
+
+#### Output example
+
+    {
+      "0": [
+        [
+          "Michael",
+          " Hello, good morning."
+        ],
+        [
+          "Pam",
+          " Good morning."
+        ],
+        [
+          "Michael",
+          " You ready? And we're off, like a herd of turtles."
+        ],
+        [
+          "Michael",
+          " Well, Pam and I have eloped. Actually we just robbed a bank, and we are"
+        ]
+      ]
+    }
 
 ## * With swagger *
 
