@@ -24,7 +24,7 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/nasirkhalid24/the-office-us-co
 
     name: The The Office character name.
     text: The base of script.
-    length: The size of generated text.
+    length: The size of generated text. (min: 50)
 
 
 ### Output foramt
