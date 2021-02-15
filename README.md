@@ -29,7 +29,7 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/nasirkhalid24/the-office-us-co
 
 ### Output foramt
 
-    {"0", [[character name, dialog], [character name, dialog], ...]}
+    {"0": [[character name, dialog], [character name, dialog], ...]}
 
 
 ## * With CLI *
