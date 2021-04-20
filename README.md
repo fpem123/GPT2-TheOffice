@@ -4,7 +4,10 @@
 
 This project generate The Office script using GPT-2 model.
 
+You can download the model here: [Hugging face](https://huggingface.co/HScomcom/gpt2-theoffice)
+
 Fine tuning data: [Kaggle](https://www.kaggle.com/nasirkhalid24/the-office-us-complete-dialoguetranscript)
+
 
 ### Model information
 
